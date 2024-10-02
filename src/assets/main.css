@@ -1,0 +1,218 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f4f4f4;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .logo span {
+            font-weight: bold;
+            color: #2f8f2f;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            padding: 10px 0;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #2f8f2f;
+            border-bottom: 2px solid #2f8f2f;
+        }
+
+        .header-icons {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .header-icons a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .header-icons a:hover {
+            color: #2f8f2f;
+        }
+
+        .login-button {
+            padding: 8px 16px;
+            background-color: #2f8f2f;
+            border: none;
+            border-radius: 5px;
+            color:#f4f4f4;
+            text-decoration: none;
+        }
+
+        .login-button:hover {
+            background-color: #248124;
+        }
+
+      
+      .login-button:visited {
+        color: white;
+    }
+
+
+
+        .container2 {
+          max-width: 100%;
+          background: white;
+          margin: auto;
+          display: flex;
+          justify-content: space;
+          align-items:center;
+        }
+        
+        .containerInfo{
+          max-width: 35%;
+          background: white;
+          margin: auto;
+          position: relative;
+          align-items:center;
+        }
+        .containerInfo h1 {
+          font-family: Cera Pro;
+          font-size: 70px;
+          font-weight: 900;
+          line-height: 70px;
+          color: #333;
+          text-align: left;
+
+        }
+        .containerInfo p {
+          font-family: Cera Pro;
+          color: #333;
+
+        }
+        .containerInfo span{
+          font-family: Cera Pro;
+          font-size: 70px;
+          font-weight: 900;
+          line-height: 70px;
+          color:#248124;
+          text-align: left;
+
+        }
+        .containerInfo button {
+          padding: 8px 16px;
+          background-color: #2f8f2f;
+          width: 150px;
+          color: white;
+          margin-top: 40px;
+          border: none;
+          border-radius: 5px;
+          text-decoration: none;
+          transition: background-color 0.3s;
+        }
+        .containerImage {
+          max-width: 100%;
+          background: white;
+          margin: auto;
+          display: flex;
+          justify-content: space;
+          align-items:center;
+        }
+        .containerSlider {
+          max-width: 100%;
+          background: white;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          align-items:center;
+        }
+        .containerSlider button {
+          background-color: transparent;
+          border: none;
+          font-size: 50px;
+        }
+
+        .container3 {
+          max-width: 100%;
+          background: white;
+          margin: auto;
+          display: flex;
+          justify-content: space;
+          align-items:center;
+        }
+        .container3 p{
+          font-family: Cera Pro;
+          font-size: 40px;
+          color: #333;
+          margin-left: 50px;
+        }
+
+        .container3 ul {
+          list-style-type: none;
+          margin-left: 70px;
+          gap: 20px;
+      }
+      .container3 ul li{
+        margin-top: 10px;
+      }
+
+      .container3 ul li a {
+          text-decoration: none;
+          color: #333;
+          font-size: 18px;
+          padding: 10px 0;
+          transition: color 0.3s;
+      }
+      .containerProduct{
+        max-width: 50%;
+        background: white;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+      }
+      .containerProduct img{
+        width: 300px;
+      }
+
+
